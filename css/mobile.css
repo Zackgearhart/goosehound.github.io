@@ -3,10 +3,12 @@ body{
     background-color:gray;  
     overflow: hidden;
 }
-p{
+.paragraph{
     font-size:24px;
     background: rgba(255, 255, 255, 0.5);
     text-shadow:1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    text-align: center;
+    padding-bottom:10vw;
 }
 #picture{
     height: 100vh;
@@ -172,11 +174,11 @@ nav{
 #popoutbio{
     color:white;
     text-align: center;
-    width:50vw;
-    height:50vh;
+    width:75vw;
+    height:75vh;
     transform: translate(-50,-50);
     position:relative;
-
+    
     font-size: 5vw;
     display:none;
     z-index: 2;
