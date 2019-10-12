@@ -12,11 +12,20 @@ $("#mobileNavCover, #mobileNav a").click(function () {
 	}, 100);
 	$("#merchthing").css("display", "none");
     $("#merchthing").css("background-color", "none");
+    $("#popoutbio").css("display", "none");
+    $("#popoutbio").css("background-color", "none");
 });
 $("body").on("click", ".merch", function () {
 
 	$("#mobileNavCover").show();
 	$("#merchthing").css("display", "inline-block");
+
+});
+
+$("body").on("click", ".bio", function () {
+
+	$("#mobileNavCover").show();
+	$("#popoutbio").css("display", "inline-block");
 
 });
 
