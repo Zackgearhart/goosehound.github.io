@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    background-color:gray;  
+    overflow: hidden;
+}
+#picture{
+    height: 100vh;
+    width:100vw;
+background-repeat: no-repeat;
+  background-size: auto;
+    background-image: url(../desktopbackground.jpg);
+    background-size: cover;
+    position:relative;
+    font-family: 'Titillium Web', sans-serif;
+}
+#footer{
+    position:absolute;
+    bottom:0;
+    height:7vh;
+    width:100%;
+    background-color:rgba(10,10,10,0.8)
+}
+#logo{
+    padding-top: 1.125vh;
+    height:5.5vh;
+    padding-left: 5vw;
+
+}
+#menu{
+    height: 4vh;
+    margin-top: 3.5vh;
+    float: right;
+    display:inline-block;
+    transform: translate(-65%,-50%);
+    z-index: 1;
+}
+#mobileNav{
+    height :100vh;
+    width: 50vw;
+    position: fixed;
+    top:0;
+    right:-50vw;
+    background-color:rgba(0,0,45,.38);
+    z-index: 2;
+}
+#mobileNav a{
+    display:block;
+    text-align:center;
+    height: 15vh;
+    line-height:15vh;
+    box-sizing: border-box;
+    border-bottom: 4px solid black;
+    color:#f5f5f5;
+    text-decoration: none;
+    Font-size: 3vh;
+font-family: 'Orbitron', sans-serif;
+}
+#mobileNav a:hover{
+    background-color: rgba(0,0,45,.5)
+    
+}
+
+#mobileNavCover{
+    display:none;
+    background-color:rgba(0,0,0,0.7);
+    z-index: 1;
+    position:fixed;
+    height:100vh;
+    width:100%;
+    top:0;
+    left:0;
+}
+#desktopNav{
+    display: none;
+}
+nav{
+    height: 7vh;
+    width: 7vh; /*important to be square in vh instead of vw*/
+    background-color: rgba(0,0,0,1);
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#photocred, a{
+    color:white;
+}
+.facebook{
+    font-family: 'Titillium Web', sans-serif;
+}
+#merchthing{
+    color:white;
+    text-align: center;
+    width:50vw;
+    height:50vh;
+    transform: translate(-50,-50);
+    position:relative;
+
+    font-size: 5vw;
+    display:none;
+    z-index: 2;
+    font-family: 'Titillium Web', sans-serif;
+}
+#photocred{
+    font-size:3.5vh;
+}
+.random{
+    font-size: 10px;
+    cursor: pointer;
+}
+#disco{
+    font-size: 1vh;
+    font-family: 'Titillium Web', sans-serif;
+}
+#discoball{
+    display:none;
+}
+
+#discoball{
+    z-index: 2;
+    background-color: none;
+    width: 30vmin;
+    height: 30vmin;
+    border-radius: 50%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+#discoCover{
+    display:none;
+    background-color:rgba(0,0,0,0.7);
+    z-index: 1;
+    position:fixed;
+    height:100vh;
+    width:100%;
+    top:0;
+    left:0;
+}
+#discoball:hover{
+    width:60vmin;
+    height:60vmin;
+}
+#godzilla{
+    z-index: 2;
+    background-color: none;
+    width: 30vmin;
+    height: 30vmin;
+    border-radius: 50%;
+    position:absolute;
+    top:70%;
+    left:30%;
+    transform: translate(-30%,-70%);
+    text-align: center;
+}
+#godzilla{
+    display:none;
+}
+#gooseyboylogo{
+    display: none;
+}
+#godzilla:hover{
+    width:60vmin;
+    height:60vmin;
+}
