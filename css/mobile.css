@@ -8,7 +8,9 @@ body{
     background: rgba(255, 255, 255, 0.5);
     text-shadow:1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
     text-align: center;
-    padding-bottom:10vw;
+    padding-bottom:21px;
+    margin:0;
+    margin-top: 21px;
 }
 #picture{
     height: 100vh;
@@ -175,7 +177,7 @@ nav{
     color:white;
     text-align: center;
     width:75vw;
-    height:75vh;
+    height:auto;
     transform: translate(-50,-50);
     position:relative;
     
