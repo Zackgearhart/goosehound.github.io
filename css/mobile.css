@@ -9,6 +9,8 @@ body{
     text-shadow:1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
     text-align: center;
     padding-bottom:21px;
+    padding-left:21px;
+    padding-right:21px;
     margin:0;
     margin-top: 21px;
 }
@@ -176,7 +178,7 @@ nav{
 #popoutbio{
     color:white;
     text-align: center;
-    width:75vw;
+    width:85vw;
     height:auto;
     transform: translate(-50,-50);
     position:relative;
