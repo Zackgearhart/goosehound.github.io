@@ -56,8 +56,8 @@ background-repeat: no-repeat;
 #mobileNav a{
     display:block;
     text-align:center;
-    height: 15vh;
-    line-height:15vh;
+    height: 17vh;
+    line-height:17vh;
     box-sizing: border-box;
     border-bottom: 4px solid black;
     color:#f5f5f5;
@@ -66,7 +66,7 @@ background-repeat: no-repeat;
 font-family: 'Orbitron', sans-serif;
 }
 #mobileNav a:hover{
-    background-color: rgba(0,0,45,.5)
+    background-color: rgba(0,0,75,.5)
     
 }
 
