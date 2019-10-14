@@ -85,7 +85,7 @@ font-family: 'Orbitron', sans-serif;
 }
 nav{
     height: 7vh;
-    width: 7vh; /*important to be square in vh instead of vw*/
+    width: 9vh; /*important to be square in vh instead of vw*/
     background-color: rgba(0,0,0,1);
     position: absolute;
     right: 0;
