@@ -7,9 +7,7 @@
     width:100vw;
   background-repeat: no-repeat;
   background-size: auto;
-    background-image: url(
-        ../gooseyboys.jpg
-      );
+    background-image: url(../desktopbackground.jpg);
     background-size: cover;
     position:relative;
 }
