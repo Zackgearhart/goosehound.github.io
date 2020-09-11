@@ -57,16 +57,16 @@ var discochamp = function () {
 	var ballWidth = $("#discoball").width();
 	var x = parseInt($("#discoball").css("left").split("px")[0]) + movX;
 	var y = parseInt($("#discoball").css("top").split("px")[0]) + movY;
-	if (x > width - ballWidth / 2) {
+	if (x > width - ballWidth / 1) {
 		movX = movX * -1;
 	}
-	if (y > height - ballWidth / 2) {
+	if (y > height - ballWidth / 1) {
 		movY = movY * -1;
 	}
-	if (x < 0 + ballWidth / 2) {
+	if (x < 0 + ballWidth / 1) {
 		movX = movX * -1;
 	}
-	if (y < 0 + ballWidth / 2) {
+	if (y < 0 + ballWidth / 1) {
 		movY = movY * -1;
 	}
 	$("#discoball").css("left", x);
@@ -80,16 +80,16 @@ var godzillachamp = function () {
 	var ballWidth = $("#godzilla").width();
 	var x = parseInt($("#godzilla").css("left").split("px")[0]) + movX;
 	var y = parseInt($("#godzilla").css("top").split("px")[0]) + movY;
-	if (x > width - ballWidth / 2) {
+	if (x > width - ballWidth / 1) {
 		movX = movX * -1;
 	}
-	if (y > height - ballWidth / 2) {
+	if (y > height - ballWidth / 1) {
 		movY = movY * -1;
 	}
-	if (x < 0 + ballWidth / 2) {
+	if (x < 0 + ballWidth / 1) {
 		movX = movX * -1;
 	}
-	if (y < 0 + ballWidth / 2) {
+	if (y < 0 + ballWidth / 1) {
 		movY = movY * -1;
 	}
 	$("#godzilla").css("left", x);
