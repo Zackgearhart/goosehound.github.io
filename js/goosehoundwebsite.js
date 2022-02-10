@@ -48,8 +48,8 @@ $("body").on("click", ".random", function () {
 	setInterval(random, 10);
 });
 
-var movX = parseInt(Math.random() * 5) + 1;
-var movY = parseInt(Math.random() * 5) + 1;
+var movX = parseInt(Math.random() * 1) + 1;
+var movY = parseInt(Math.random() * 1) + 1;
 var discochamp = function () {
 	$("#discoball").css("display", "inline-block");
 	var width = $("#discoCover").width();
